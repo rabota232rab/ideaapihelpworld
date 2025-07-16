@@ -35,3 +35,19 @@ ul {
 li {
   padding: 5px 0;
 }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 6px solid #0066cc;
+  margin: 20px 0;
+  padding: 15px 20px;
+  font-style: italic;
+  border-radius: 6px;
+}
+footer {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+
