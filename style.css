@@ -1,63 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mason Build & Repair LLC</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <img src="assets/logo.png" alt="Mason Build Logo" width="120" />
-    <h1>Reliable Home Repair Services in Miami</h1>
-    <p>Founded by Thomas Mason, serving Miami since 2023</p>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+}
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>🛠️ Carpentry</li>
-      <li>🚿 Plumbing</li>
-      <li>🏠 Renovation</li>
-    </ul>
-  </section>
+header, section, footer {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
 
-  <section id="reviews">
-    <h2>Client Reviews</h2>
-    <blockquote>
-      <p>“Excellent service! Quick and professional.”</p>
-      <footer>— ★★★★★ Maria R., Miami Beach</footer>
-    </blockquote>
-    <blockquote>
-      <p>“Thomas repaired our kitchen in 2 days. It looks brand new!”</p>
-      <footer>— ★★★★★ Jason T., Coral Gables</footer>
-    </blockquote>
-    <blockquote>
-      <p>“Affordable, on time, and friendly. Highly recommended!”</p>
-      <footer>— ★★★★★ Laura M., Wynwood</footer>
-    </blockquote>
-  </section>
+h1, h2 {
+  color: #0066cc;
+}
 
-  <section id="submit-review">
-    <h2>Leave Your Review</h2>
-    <form action="#" method="post">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="text" name="location" placeholder="City/Area" required />
-      <textarea name="message" placeholder="Your Review" required></textarea>
-      <button type="submit">Submit Review</button>
-    </form>
-  </section>
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 5px 0;
+}
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: masonbuild@example.com</p>
-    <p>Phone: (305) 555-1234</p>
-  </section>
+blockquote {
+  background: #f9f9f9;
+  border-left: 6px solid #0066cc;
+  margin: 20px 0;
+  padding: 15px 20px;
+  font-style: italic;
+  border-radius: 6px;
+}
+footer {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
 
-  <footer>
-    <p>© 2025 Mason Build & Repair LLC</p>
-  </footer>
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0066cc;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004da3;
+}
