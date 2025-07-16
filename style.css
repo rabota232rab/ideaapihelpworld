@@ -10,7 +10,7 @@ header, section, footer {
   padding: 20px;
   max-width: 800px;
   margin: auto;
-  background: #fff;
+  background-image: url("assets/background.png")
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -19,6 +19,13 @@ header, section, footer {
 h1, h2 {
   color: #0066cc;
 }
+body {
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 ul {
   list-style: none;
