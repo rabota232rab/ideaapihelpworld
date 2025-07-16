@@ -30,6 +30,26 @@ ul {
 li {
   padding: 5px 0;
 }
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #0066cc;
+  padding: 15px;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 
 blockquote {
   background: #f9f9f9;
@@ -70,6 +90,7 @@ input, textarea {
 #payment button:hover {
   background-color: #218838;
 }
+
 
 button {
   padding: 10px;
