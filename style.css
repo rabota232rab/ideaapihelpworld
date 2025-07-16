@@ -57,6 +57,19 @@ input, textarea {
   border-radius: 4px;
   font-size: 16px;
 }
+#payment button {
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#payment button:hover {
+  background-color: #218838;
+}
 
 button {
   padding: 10px;
